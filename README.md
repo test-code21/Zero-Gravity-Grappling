@@ -6,6 +6,10 @@ Zero Gravity Grappling is a public research program studying controlled body-to-
 
 It asks how humans establish **orientation, leverage, contact, restraint, rescue, safety, composure, play, and sport** when the floor no longer functions as the primary reference frame.
 
+> **Current stage:** conceptual foundation → autonomous research and validation  
+> **Active Work:** [Work 001 — Autonomous Research Director Pass](https://github.com/test-code21/Zero-Gravity-Grappling/issues/1)  
+> **Research status:** [STATUS.md](STATUS.md)
+
 ## Core Thesis
 
 > **Zero Gravity Grappling is the codification of controllable human relationships in altered gravity.**
@@ -44,9 +48,18 @@ The project is **not** premised on “MMA in space.” It is an attempt to rigor
 Every important claim should be distinguishable as one of:
 
 1. **Established science**
-2. **Martial-arts or interdisciplinary inference**
-3. **Plausible design proposal**
-4. **Speculative future concept**
+2. **Interdisciplinary inference**
+3. **Design proposal**
+4. **Speculative concept**
+5. **Experimental observation**
+
+Claim type and confidence are tracked separately.
+
+See:
+
+- [Evidence and Claim Standard](research/EVIDENCE_STANDARD.md)
+- [Source Provenance](research/SOURCE_PROVENANCE.md)
+- [Current Truth](research/CURRENT_TRUTH.md)
 
 The project should prefer falsification, uncertainty reduction, and experimental evidence over concept expansion.
 
@@ -54,7 +67,7 @@ The project should prefer falsification, uncertainty reduction, and experimental
 
 **Codify → test → observe → revise.**
 
-The intended development path begins with Earth-based analysis and analogs, then progresses toward increasingly faithful altered-gravity environments only when the earlier work justifies it.
+The intended development path begins with Earth-based analysis and analogs, then progresses toward increasingly faithful altered-gravity environments only when earlier work justifies it.
 
 ## Public Research / IP Boundary
 
@@ -62,7 +75,9 @@ Research, theory, evidence, doctrine, experiments, and educational work are publ
 
 Potentially patentable **technical implementations**—for example novel hardware, sensor systems, training rigs, stabilization mechanisms, or other concrete inventions—must pass an IP publication review before enabling technical details are released.
 
-See [governance/IP_PUBLICATION_GATE.md](governance/IP_PUBLICATION_GATE.md).
+See [IP Publication Gate](governance/IP_PUBLICATION_GATE.md).
+
+No explicit open-source or open-content license has been selected yet. Public visibility and licensing are being treated as separate decisions.
 
 ## Work System
 
@@ -74,31 +89,58 @@ Only the front edge is admitted as real Work. Later items remain forecasted and 
 
 Each Decade ends with a **capstone that synthesizes what changed and proposes the next Decade**.
 
-See [work/DECADE_001.md](work/DECADE_001.md).
+See:
+
+- [Decade 001 — Autonomous Research](work/DECADE_001.md)
+- [Admitted Work](work/ADMITTED_WORK.md)
+- [Research Frontier](work/RESEARCH_FRONTIER.md)
+- [Work Item Template](work/WORK_ITEM_TEMPLATE.md)
+- [Research Mission Template](work/RESEARCH_MISSION_TEMPLATE.md)
+- [Capstone Template](work/CAPSTONE_TEMPLATE.md)
 
 ## Current Status
-
-**Mode:** conceptual foundation → autonomous research and validation.
 
 The current priority is not opening a gym, launching a league, or purchasing expensive infrastructure. It is making the research program rigorous enough that future physical institutions and experiments are justified by accumulated knowledge.
 
 A future terrestrial school may exist independently under another name; it does not define the scope of this research program.
 
+The immediate bottleneck is determining which parts of the current model are:
+
+- strongly supported
+- weakly supported
+- falsifiable
+- experimentally tractable
+- worth carrying forward
+
 ## Repository Map
 
-- `research/` — current research corpus and research prompts
+- `research/` — current truth, research corpus, evidence standards, provenance, and open questions
 - `atlas/` — positional grammar and future evidence-backed atlas
 - `safety/` — stabilization doctrine and safety framework
 - `training/` — staged analog and experimental pathways
-- `work/` — Decades, admitted Work, and capstones
-- `governance/` — publication and decision rules
-- `archive/` — deep research reports and historical synthesis
+- `work/` — Decades, admitted Work, mission templates, research frontier, and capstones
+- `governance/` — publication, IP, and human-escalation rules
+- `archive/` — long-form research reports and historical synthesis
+- `.github/` — public collaboration and issue workflow as it develops
 
 ## Foundational Safety Principle
 
 > **No submission without stabilization.**
 
 This is a research proposition and design rule, not a claim of experimentally validated safety. It must be tested and refined as the project develops.
+
+## Contributing
+
+Useful criticism is welcome, especially contributions that:
+
+- falsify an assumption
+- improve source quality
+- expose a safety problem
+- identify a better experiment
+- document a negative result
+- clarify the boundary between evidence and speculation
+
+See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ---
 
