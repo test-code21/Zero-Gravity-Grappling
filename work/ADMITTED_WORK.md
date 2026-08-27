@@ -2,6 +2,8 @@
 
 ## ACTIVE — Work 001: Autonomous Research Director Pass
 
+**GitHub issue:** https://github.com/test-code21/Zero-Gravity-Grappling/issues/1
+
 ### Objective
 
 Determine what Zero Gravity Grappling should learn next.
@@ -21,6 +23,7 @@ The complete current research corpus, including:
 - visualization strategy
 - deep research reports
 - current governance rules
+- evidence and provenance standards
 
 ### Instruction
 
@@ -59,6 +62,16 @@ Prefer:
 Do not ask Austin to choose among routine research directions.
 
 Escalate only under the Human Escalation Rule.
+
+### Required Handoff
+
+Before Work 001 can close:
+
+1. populate `work/RESEARCH_FRONTIER.md`
+2. instantiate Research Mission 001 using `work/RESEARCH_MISSION_TEMPLATE.md`
+3. update current truth if the Director Pass changes any existing assumption
+4. record whether forecasted Work 002 should be admitted, revised, skipped, or replaced
+5. preserve any meaningful contradictions or provenance gaps
 
 ### Completion Condition
 
